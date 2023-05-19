@@ -1,0 +1,87 @@
+using System;
+
+namespace SIS
+{
+	public class CourseDescription
+	{
+		public static void Main(string[]args){
+		Profile();
+		
+		static void Profile(){
+			
+			
+		Console.WriteLine("Good Day!!,'Ms. Sarah' Welcome To PUP HUB!!\n");
+		Console.WriteLine("Do you Want to View your Own Profile???\n");
+		Console.WriteLine("PRESS THE DESIGNATED NUMBER\n");
+		Console.WriteLine("1 - Open Your Profile\n");
+    	Console.WriteLine("2 - Stay In Home Page\n");
+		
+		int num =Convert.ToInt32(Console.ReadLine());
+
+		
+		if (num == 1)
+		{ 	
+		Console.WriteLine("Welcome To Your Profile");
+		Console.WriteLine("FullName : ");
+		Console.WriteLine("Age : ");
+		Console.WriteLine("BirthDate: ");
+		Console.WriteLine("Course Section & Year:");
+		Console.WriteLine("Course Description :");
+		Console.WriteLine("Would you Like To View The 'OTHER INFORMATION'???");
+    	Console.WriteLine("1 - Yes");
+    	Console.WriteLine("2 - No / Stay In Profile\n");
+	    }
+		if (num == 2)
+		{  
+		Console.WriteLine("Ms. Sarah What would you Like to do in your Hone Page??");
+		}
+		{ 
+			
+		int numb =Convert.ToInt32(Console.ReadLine());
+		if (numb == 1)
+		{ 
+		Console.WriteLine("Welcome To Your Other Information!!");
+		Console.WriteLine("1 - To View Private / Personal Information");
+		Console.WriteLine("2 - To View Course Description\n");
+		}
+		if (numb == 2)
+		{
+		Console.WriteLine("Ms.Sarah Would You Like to Go Back On Home Page??\n ");
+		}
+		{
+   	int nu =Convert.ToInt32(Console.ReadLine());
+	   
+	   if (nu == 1)
+	   Console.WriteLine("\nSarah\nNov.21 2000 \n Binan City Laguna\n");
+	   
+	   if (nu ==2)
+	   Console.WriteLine("BSIT 2-1 \n EXPECTATION FOR COURSE: More Knowlegde and Learn More Skills in Programming");
+	   Console.WriteLine("Would You Like To Change / Edit Your Course Description??\n ");
+	   Console.WriteLine(" 1 - Edit");
+	   Console.WriteLine(" 2 - Back To Profile\n");
+		}
+		int numbe =Convert.ToInt32(Console.ReadLine());
+		
+		if (numbe == 1)
+		{ 
+	    Console.WriteLine("Please Enter Your New Course Description:\n");
+		string newCD = Console.ReadLine();
+		Console.WriteLine("\nMs.Sarah your Course Description Has Change to:\n     "+ newCD);
+		
+		}
+		if (numbe == 2)
+		{
+		Console.WriteLine("Welcome To Your Profile");
+		Console.WriteLine("Would you Like To View The 'OTHER INFORMATION'???");
+    	Console.WriteLine("1 - Yes");
+    	Console.WriteLine("2 - No / Stay In Profile");
+		
+		
+		
+		}}
+		}}
+    	}}
+		
+		
+	
+			
